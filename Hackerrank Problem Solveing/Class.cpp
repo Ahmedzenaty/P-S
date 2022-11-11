@@ -50,11 +50,6 @@ class Student {
     {
         return last_name;
     }
-    string to_string(int age,int standard,string first_name,string last_name)
-    {
-        return "age" ;
-    }
-
 };
 
 int main() {
@@ -72,7 +67,6 @@ int main() {
     cout << st.get_last_name() << ", " << st.get_first_name() << "\n";
     cout << st.get_standard() << "\n";
     cout << "\n";
-  //  cout << st.to_string(age,standard,first_name,last_name);
     cout << age << ',' << first_name << ',' << last_name <<',' << standard;
     return 0;
 }
